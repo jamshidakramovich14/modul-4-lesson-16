@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+header {
+  position: fixed;
+  background: white;
+  width: 100%;
+  z-index: 9;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 10px 20px -20px;
+}
+
+.header-wrapper {
+  padding: 25px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-wrapper .header-left {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.header-wrapper .header-left img {
+  width: 60px;
+  height: 40px;
+}
+.header-wrapper .header-left h3 {
+  font-family: sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+}
+.header-wrapper .header-left i {
+  cursor: pointer;
+  margin-left: 50px;
+  font-weight: 700;
+  font-size: 30px;
+}
+.header-wrapper .header-right {
+  position: relative;
+}
+.header-wrapper .header-right button {
+  display: flex;
+  padding: 15px 60px;
+  border: none;
+  gap: 10px;
+  text-align: start;
+  align-items: center;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.header-wrapper .header-right button i {
+  font-weight: 700;
+}
+.header-wrapper .header-right button p {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+main {
+  display: flex;
+}
+main .aside {
+  margin-top: 90px;
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 100vh;
+  width: 500px;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+  background: white;
+}
+main .aside ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  width: 100%;
+  height: 60px;
+  background: rgb(34, 0, 228);
+  border-radius: 25px;
+  cursor: pointer;
+}
+main .aside ul li a {
+  font-weight: 700;
+  color: white;
+}
+main .content {
+  width: 100%;
+  margin-top: 130px;
+  padding: 25px;
+}
+
+.aside-show {
+  transform: translateX(-100%) !important;
+  position: absolute !important;
+}
+
+#togle-menu {
+  display: none;
+  flex-direction: column;
+  background: rgb(46, 0, 110);
+  position: absolute;
+  width: 100%;
+  top: 50px;
+  border-radius: 10px;
+  border: none;
+}
+#togle-menu a {
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.togleclas {
+  display: flex !important;
+}
+
+.login-wrapper {
+  background: rgba(0, 91, 130, 0.691);
+  width: 600px;
+  height: 500px;
+  margin: 200px auto;
+  padding: 50px;
+}
+.login-wrapper form label {
+  display: block;
+  margin-bottom: 10px;
+}
+.login-wrapper form label p {
+  font-weight: 700;
+  color: white;
+  margin-bottom: 10px;
+}
+.login-wrapper form label input {
+  width: 100%;
+  padding: 20px;
+  font-family: sans-serif;
+  font-size: 25px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+.login-wrapper form button {
+  margin-top: 30px;
+  width: 100%;
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 25px;
+  margin-bottom: 50px;
+  background: rgb(0, 128, 130);
+  color: white;
+  font-style: 700;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+}
+.login-wrapper a {
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  display: block;
+}/*# sourceMappingURL=style.css.map */
